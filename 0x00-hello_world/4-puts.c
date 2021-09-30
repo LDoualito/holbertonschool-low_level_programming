@@ -1,11 +1,7 @@
-/**
- *Description
- *print the string with printf
- */
 #include <stdio.h>
 #include <string.h>
 /**
- *yeah same
+ *main - print stuff wihtout printf
  */
 int main(void)
 {
