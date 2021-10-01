@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - display all numbers of base 16
+ *
+ * Return: 0123456789abcdef
+ */
 int main(void)
 {
 	char x;
