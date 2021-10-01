@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*more header stuff*/
-
-/*betty style goes brrrr*/
+/**
+ * main - print alphabets without "e" and "q"
+ *
+ * Return: abcdf...Z
+ */
 int main(void)
 {
 	char c;
