@@ -9,9 +9,8 @@ int main () {
 	     if (( c == 'e') || (c == 'q'))
 	     {
 	     c++;
-	     putchar(c);
-		     }
-	     else putchar(c);
+	     }
+	      putchar(c);
    }
    putchar('\n');
    return(0);
