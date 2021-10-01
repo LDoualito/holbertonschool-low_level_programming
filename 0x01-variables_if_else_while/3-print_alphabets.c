@@ -2,13 +2,13 @@
 /**
  * main - Alphbet but first in lowercase then uppercase
  *
- * Return: abc...zABC...Z 
+ * Return: abc...zABC...Z
  */
 int main (void)
 {
 	char c;
 
-	for(c = 'a' ; c <= 'z' ; c++)
+	for (c = 'a' ; c <= 'z' ; c++)
 	{
 		putchar(c);
 	}
