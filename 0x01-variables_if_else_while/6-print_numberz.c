@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*more header stuff*/
-
-/*betty style goes brrrr*/
+/**
+ * main - display all digit of base 10
+ *
+ * Return: 0123456789
+ */
 int main(void)
 {
 	int i = 0;
