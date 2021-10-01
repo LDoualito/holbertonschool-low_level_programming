@@ -2,12 +2,14 @@
 /*more header stuff*/
 
 /*betty style goes brrrr*/
-int main () {
-   int x;
+int main (void)
+{
+	int x;
 
-   for(x = 0 ; x < 10 ; x++) {
-	   printf("%d",x);
-   }
-   printf("\n");
-   return(0);
+	for(x = 0 ; x < 10 ; x++)
+	{
+		printf("%d",x);
+	}
+	printf("\n");
+	return (0);
 }
