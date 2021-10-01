@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - check the last digit to see if it's above 5 or lower than 6
+ *
+ * Return : >5 |<6
+ */ 
 int main(void)
 {
 	int n;
