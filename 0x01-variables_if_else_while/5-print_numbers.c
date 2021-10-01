@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*more header stuff*/
-
-/*betty style goes brrrr*/
+/**
+ * main - display 0 to 9
+ *
+ * Return: 0123456789
+ */
 int main(void)
 {
 	int x;
