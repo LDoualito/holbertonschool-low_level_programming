@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*more header stuff*/
-
-/*betty style goes brrrr*/
+/**
+ * main - print alphabet
+ *
+ * Return: abc...z
+ */
 int main(void)
 {
 	char c;
