@@ -5,7 +5,7 @@
 /**
  * main - check the last digit to see if it's above 5 or lower than 6
  *
- * Return : Else it's greater than 5 | else lower than 6 | Or 0
+ * Return: Else it's greater than 5 | else lower than 6 | Or 0
  */
 int main(void)
 {
