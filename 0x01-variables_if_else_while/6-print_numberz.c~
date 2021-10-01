@@ -1,0 +1,14 @@
+#include <stdio.h>
+/*more header stuff*/
+
+/*betty style goes brrrr*/
+int main () {
+   int x = 0;
+   int i = 0;
+   for (i = 0; i < 10 ; i++)
+   {
+   putchar(x + '0');
+      }
+   putchar('\n');
+   return(0);
+}
