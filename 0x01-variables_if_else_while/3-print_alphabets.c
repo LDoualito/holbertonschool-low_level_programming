@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*more header stuff*/
-
-/*betty style goes brrrr*/
+/**
+ * main - Alphbet but first in lowercase then uppercase
+ *
+ * Return: abc...zABC...Z 
+ */
 int main (void)
 {
 	char c;
