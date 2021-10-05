@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
  * print_alphabet_x10 - display 10 times the alphabet in lowercase
  *
  *Return: abc...z
@@ -10,7 +9,7 @@
  *...
  */
 
-void print_alphabet_x10 (void)
+void print_alphabet_x10(void)
 {
 	char letter;
 	int i;
