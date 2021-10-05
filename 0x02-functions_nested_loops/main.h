@@ -2,18 +2,17 @@
 #include <stdlib.h>
 
 /**
- * print_alphabet - display the alphabet
+ * print_alphabet - display the alphabet in lowercase
  *
  * Return: abc...z
  */
-int print_alphabet()
+void print_alphabet(void)
 {
-	char ch;
+	char letter;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-	{
-		putchar(ch);
+	for (letter = 'a'; letter <= 'z'; letter++){
+		putchar(letter);
 	}
 	putchar('\n');
-	return (0);
+	return;
 }
