@@ -1,12 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-char c[] = "_putchar";
-int i;
+/**
+ * main - display "_putchar"
+ *
+ * Return: _purchar
+ */
 
 int main(void)
 {
-	for(i = 0; i < 8; i++)
+	char c[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
 	putchar(c[i]);
 
 	putchar('\n');
