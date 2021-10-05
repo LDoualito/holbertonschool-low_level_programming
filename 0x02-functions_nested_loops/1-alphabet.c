@@ -2,13 +2,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - check the code
+ * main - 
  *
  * Return: Always 0.
  */
-
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		_putchar(letter);
+	}
+	_putchar('\n');
 }

@@ -1,18 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
+int _putchar (char c);
 
-/**
- * print_alphabet - display the alphabet in lowercase
- *
- * Return: abc...z
- */
-void print_alphabet(void)
-{
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++){
-		putchar(letter);
-	}
-	putchar('\n');
-	return;
-}
+void print_alphabet(void);
