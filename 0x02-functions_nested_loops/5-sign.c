@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign (int n) - check if a number is positive negative or 0
+ * print_sign - check if a number is positive negative or 0
  * @n: number
  * Return: 1 and + if > 0, 0 and 0 if = 0, -1 and - >0
  */
