@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
+ * print_numbers - display all digit
  *
- *
- *
+ *Return: nothing void
  */
 void print_numbers(void)
 {
