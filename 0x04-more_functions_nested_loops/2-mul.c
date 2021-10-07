@@ -2,8 +2,7 @@
 #include <stdlib.h>
 /**
  * mul - take a * b
- *@a: first
- *@b: second
+ *@a @b: first
  * Return: the result
  */
 int mul(int a,int b)
