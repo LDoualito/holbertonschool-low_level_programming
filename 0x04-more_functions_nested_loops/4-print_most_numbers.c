@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * print_numbers - display all digit
+ * print_most_numbers - display all digit except 2 and 4
  *
  *Return: nothing void
  */
 void print_most_numbers(void)
 {
-	int i = '0';
+	int i;
 
 	for (i = '0'; i <= '9'; i++)
 	{
