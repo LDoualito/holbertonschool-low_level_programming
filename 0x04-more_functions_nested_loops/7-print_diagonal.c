@@ -2,17 +2,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ * print_diagonal - display a diagonal based on n
+ *@n: number
+ * Return: diagonal of antislash
  */
 void print_diagonal(int n)
 {
-	int i,j;
+	int i, j;
 	char x = 92;
 
-	/* in case n <= 0*/
-        if (n <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 		return;
