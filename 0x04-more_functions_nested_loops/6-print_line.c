@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ * print_line - display n '_'
+ *@n: numbers
+ * Return: n '_'
  */
 void print_line(int n)
 {
