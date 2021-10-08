@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include "main.h"
 /**
+ * more_numbers - display 0 to 14 ten times
  *
- *
- *
+ * Return: 0 to 14 ten times
  */
 void more_numbers(void)
 {
 	int i = 0;
 	int j = 0;
 
-	while ( i < 10)
+	while (i < 10)
 	{
 		while (j < 15)
 		{
