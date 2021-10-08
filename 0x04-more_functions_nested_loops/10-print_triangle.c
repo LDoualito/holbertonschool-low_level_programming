@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ * print_triangle - print a triangle using #
+ *@size: numbers
+ * Return: a triangle defined by size value
  */
 void print_triangle(int size)
 {
@@ -16,7 +16,7 @@ void print_triangle(int size)
 
 	if (size <= 0)
 		_putchar('\n');
-	
+
 	for (i = 0; i < size; i++)
 	{
 		for (j = 0; j < space; j++)
