@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ * print_array - print array
+ *@a : element
+ *@n number of element
+ * Return: printed array with , 
  */
 void print_array(int *a, int n)
 {
@@ -14,7 +15,7 @@ void print_array(int *a, int n)
 	{
 		if (n <= 0)
 			printf("\n");
-		
+
 		printf("%d, ", a[i]);
 
 	}
