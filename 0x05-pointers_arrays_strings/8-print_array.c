@@ -4,8 +4,8 @@
 /**
  * print_array - print array
  *@a : element
- *@n number of element
- * Return: printed array with , 
+ *@n : number of element
+ * Return: printed array with ,
  */
 void print_array(int *a, int n)
 {
