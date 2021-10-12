@@ -9,15 +9,16 @@
  */
 void rev_string(char *s)
 {
+	int len = strlen(s);
 	int i;
 	int j;
-	char reversed[8];
+	char reversed[100];
 
-	for (i = 8; i <= 0; i--)
+	for (i = len - 1; i <= 0; i--)
 	{
 		reversed[j] = s[i];
 		j++;
 	}
-	for ( i = 0; i <= 8; i++)
+	for ( i = 0; i <= len; i++)
 		s[i] = reversed[i];
 }
