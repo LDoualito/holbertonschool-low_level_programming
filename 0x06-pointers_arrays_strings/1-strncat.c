@@ -7,10 +7,10 @@
  * @dest : string
  * @src : string
  * @n : int
- * Return : concatened string within the n range
+ * Return: concatened string within the n range
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	strncat(dest , src, n);
+	strncat(dest, src, n);
 	return (dest);
 }
