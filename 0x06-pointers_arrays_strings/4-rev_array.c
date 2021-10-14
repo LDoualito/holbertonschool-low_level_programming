@@ -3,16 +3,22 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *print_rev - reverse a string
- *@s : string
- * Return: reversed string
+ * reverse_array - reverse a string
+ *@a : string
+ *@n : lenght of array
+ * Return: reversed array of integers
  */
 void reverse_array(int *a, int n)
 {
 	int i;
+	int j = n - 1;
+	int swap;
 
-	for (i = n; i > 0; i--)
+	for (i = 0; i < n / 2; i++)
 	{
-		putchar(a[i]);
+		swap = a[i];
+		a[i] = a[j];
+		a[j] = swap;
+		j--;
 	}
 }
