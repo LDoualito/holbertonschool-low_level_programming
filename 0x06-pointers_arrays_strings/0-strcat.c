@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _strcat(char *dest, char *src) - concatenates two strings
+ * _strcat - concatenates two strings
  * @dest: string
  * @src : string
  * Return: concatened strings
