@@ -11,6 +11,7 @@
 
 char *_strchr(char *s, char c)
 {
-	char *find = strchr(s,c);
+	char *find = strchr(s, c);
+
 	return (find);
 }
