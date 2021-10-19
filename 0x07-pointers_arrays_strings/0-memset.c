@@ -8,7 +8,7 @@
  * @s : input string
  * @b : is a constant
  * @n : bytes
- * Return : char
+ * Return: char
  */
 
 char *_memset(char *s, char b, unsigned int n)
