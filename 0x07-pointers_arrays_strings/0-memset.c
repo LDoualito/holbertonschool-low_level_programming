@@ -8,10 +8,11 @@
  * @s : input string
  * @b : is a constant
  * @n : bytes
+ * Return : char
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	memset(s,b,n);
+	memset(s, b, n);
 	return (0);
 }
