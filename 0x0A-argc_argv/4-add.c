@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+/**
+ *
+ *
+ *
+ */
+int main(int argc, char **argv)
+{
+
+	int result, i, x;
+
+	for (i = 0; i < argc; i++)
+	{
+		x = atoi(argv[i]);
+		if (isdigit(x) == 0)
+		{
+
+			printf("Error\n");
+			return (1);
+		}
+		else
+		{
+			result =+  x;
+		}
+	}
+	printf("%d\n", result);
+	return (0);
+}
