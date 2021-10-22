@@ -8,16 +8,17 @@
  */
 int main (int argc, char **argv)
 {
-	int result;
-	int x = atoi(argv[1]);
-	int y = atoi(argv[2]);
+	int result, x, y;
 
 	if (argc == 3){
+		x = atoi(argv[1]);
+		y = atoi(argv[2]);
 		result = x * y;
 		printf("%d\n", result);
 		return (0);
 	}
-	else
+	else{
 		printf("Error\n");
-	return (1);
+		return (1);
+	}
 }
