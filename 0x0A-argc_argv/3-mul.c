@@ -4,20 +4,22 @@
  * main - multiplies two numbers
  * @argc : int
  * @argv : char
- * Return : 0 | 1
+ * Return: int
  */
-int main (int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int result, x, y;
 
-	if (argc == 3){
+	if (argc == 3)
+	{
 		x = atoi(argv[1]);
 		y = atoi(argv[2]);
 		result = x * y;
 		printf("%d\n", result);
 		return (0);
 	}
-	else{
+	else
+	{
 		printf("Error\n");
 		return (1);
 	}
