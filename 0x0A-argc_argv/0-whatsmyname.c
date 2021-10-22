@@ -3,7 +3,7 @@
  * main - print programs name
  * @argc: int
  * @argv : char
- * Return - void
+ * Return: void
  */
 int main(int argc, char *argv[])
 {
