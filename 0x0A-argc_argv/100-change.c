@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
  * main - prints the change for an amount of money.
- * @argc : int
- * @argv : char
+ *
  * Return : void
  */
 
-void main(int argc, char **argv)
+int main()
 {
-/ a faire
+
+	return (0);
 }
