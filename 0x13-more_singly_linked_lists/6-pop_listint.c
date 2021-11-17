@@ -3,7 +3,7 @@
 /**
  * pop_listint - delete the head node of a listint_t linked list
  * @head : pointer to pointer to head of the list
- *Return :the head node content
+ * Return: the head node content
  */
 
 int pop_listint(listint_t **head)
